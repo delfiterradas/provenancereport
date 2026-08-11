@@ -11,8 +11,6 @@
                 }
             },
             [
-                "README.md:md5,675e5d6c3dbc9598e26c801377bae67e",
-                "main.nf:md5,f8cc1568cd9c0105fb6cb26f6be01afd",
                 "md5sum",
                 "md5sum/provenancereport.md5",
                 "multiqc",
@@ -29,8 +27,7 @@
                 "multiqc/multiqc_data/multiqc_software_versions.txt",
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
-                "nextflow.config:md5,ef0f042c923380adf90e0107a77fe741",
-                "nextflow_schema.json:md5,965a47a7ef29471866ea060b729f0015",
+                "nf-prov",
                 "pipeline_info",
                 "pipeline_info/nf_core_provenancereport_software_mqc_versions.yml",
                 "quartonotebook",
@@ -38,23 +35,18 @@
                 "quartonotebook/artifacts/provenance_report_input_files.tsv",
                 "quartonotebook/artifacts/provenance_report_summary.txt",
                 "quartonotebook/provenance_report.html",
-                "quartonotebook/provenance_report.qmd",
-                "samplesheet.csv"
+                "quartonotebook/provenance_report.qmd"
             ],
             [
-                "README.md:md5,675e5d6c3dbc9598e26c801377bae67e",
-                "main.nf:md5,f8cc1568cd9c0105fb6cb26f6be01afd",
-                "nextflow_schema.json:md5,965a47a7ef29471866ea060b729f0015",
                 "provenance_report_input_files.tsv:md5,1458dc07273f8a570beae2b5f4358a49",
                 "provenance_report_summary.txt:md5,b32c187edd9b5ec9c088a0d2a41ff01d",
-                "provenance_report.qmd:md5,4fd8ffa820d1e7620135853517275d66",
-                "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
+                "provenance_report.qmd:md5,4fd8ffa820d1e7620135853517275d66"
             ]
         ],
-        "timestamp": "2026-08-26T20:54:56.815397391",
+        "timestamp": "2026-09-10T23:00:27.341791297",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "26.04.0"
+            "nextflow": "26.04.1"
         }
     },
     "-profile test with --document": {
@@ -69,8 +61,6 @@
                 }
             },
             [
-                "README.md:md5,675e5d6c3dbc9598e26c801377bae67e",
-                "main.nf:md5,f8cc1568cd9c0105fb6cb26f6be01afd",
                 "md5sum",
                 "md5sum/provenancereport.md5",
                 "multiqc",
@@ -87,8 +77,7 @@
                 "multiqc/multiqc_data/multiqc_software_versions.txt",
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
-                "nextflow.config:md5,ef0f042c923380adf90e0107a77fe741",
-                "nextflow_schema.json:md5,965a47a7ef29471866ea060b729f0015",
+                "nf-prov",
                 "pipeline_info",
                 "pipeline_info/nf_core_provenancereport_software_mqc_versions.yml",
                 "quartonotebook",
@@ -97,24 +86,19 @@
                 "quartonotebook/artifacts/provenance_report_summary.txt",
                 "quartonotebook/provenance_report.html",
                 "quartonotebook/provenance_report.qmd",
-                "review_signoff.md",
-                "samplesheet.csv"
+                "review_signoff.md"
             ],
             [
-                "README.md:md5,675e5d6c3dbc9598e26c801377bae67e",
-                "main.nf:md5,f8cc1568cd9c0105fb6cb26f6be01afd",
-                "nextflow_schema.json:md5,965a47a7ef29471866ea060b729f0015",
                 "provenance_report_input_files.tsv:md5,1458dc07273f8a570beae2b5f4358a49",
                 "provenance_report_summary.txt:md5,b32c187edd9b5ec9c088a0d2a41ff01d",
                 "provenance_report.qmd:md5,4fd8ffa820d1e7620135853517275d66",
-                "review_signoff.md:md5,0662c5a0325d10cdcd542d83dc2d300b",
-                "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
+                "review_signoff.md:md5,0662c5a0325d10cdcd542d83dc2d300b"
             ]
         ],
-        "timestamp": "2026-08-26T20:55:33.782720677",
+        "timestamp": "2026-09-10T23:07:38.103230046",
         "meta": {
             "nf-test": "0.9.5",
-            "nextflow": "26.04.0"
+            "nextflow": "26.04.1"
         }
     }
 }
