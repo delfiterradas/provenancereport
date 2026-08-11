@@ -36,7 +36,7 @@ The official `QUARTONOTEBOOK` module reports versions for software present in it
 <details markdown="1">
 <summary>Output files</summary>
 
-- `quartonotebook/`
+- `quartonotebook/artifacts/`
   - Files written by the notebook to `params$artifact_dir`, such as `*_input_files.tsv`, `*_summary.txt`, images, or tables.
 
 </details>
