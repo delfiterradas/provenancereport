@@ -113,16 +113,26 @@ output {
     artifacts {
         path 'quartonotebook'
         mode params.publish_dir_mode
+        index {
+            path 'artifacts.csv'
+        }
     }
     multiqc_report {
         path 'multiqc'
         mode params.publish_dir_mode
+        index {
+            path 'multiqc_report.csv'
+        }
     }
     md5sum {
         path 'md5sum'
         mode params.publish_dir_mode
     }
     document{
+        mode params.publish_dir_mode
+        index {
+            path 'document.csv'
+        }
     }
 }
 

@@ -213,10 +213,10 @@ workflow PROVENANCEREPORT {
     versions       = ch_versions                                         // channel: [ path(versions.yml) ]
     multiqc_report = ch_multiqc_reports
     document       = STAGE_FILE.out.staged_file
-    reports        = QUARTONOTEBOOK.out.html                             // channel: [ val(meta), path(html) ]
-    notebook       = QUARTONOTEBOOK.out.notebook  // channel: [ val(meta), path(qmd) ]
-    artifacts      = QUARTONOTEBOOK.out.artifacts // channel: [ val(meta), path(artifacts/*) ]
-    md5sum         = MD5SUM.out.checksum
+    reports        = QUARTONOTEBOOK.out.html.map      { _meta, html     -> html     }
+    notebook       = QUARTONOTEBOOK.out.notebook.map  { _meta, qmd      -> qmd      }
+    artifacts      = QUARTONOTEBOOK.out.artifacts.map { _meta, artifact -> artifact } // channel: [ val(meta), path(artifacts/*) ]
+    md5sum         = MD5SUM.out.checksum.map          { _meta, checksum -> checksum }
 }
 
 /*
