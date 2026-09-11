@@ -44,14 +44,11 @@
                 "quartonotebook/external_rds_report.qmd"
             ],
             [
-                "artifacts.csv:md5,ecd743dcb66dbaec75233dcb4671beb8",
-                "document.csv:md5,d41d8cd98f00b204e9800998ecf8427e",
-                "multiqc_report.csv:md5,fdb80ed7e1f94b017d5176b9ed292c61",
                 "external_rds_summary.tsv:md5,26d3aee09ee5b92e17f0dce912a750aa",
                 "external_rds_report.qmd:md5,33c6e034d026f8d8d619711bec521665"
             ]
         ],
-        "timestamp": "2026-09-11T16:12:19.709735601",
+        "timestamp": "2026-09-11T17:26:31.173617532",
         "meta": {
             "nf-test": "0.9.4",
             "nextflow": "25.10.4"
