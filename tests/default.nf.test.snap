@@ -11,6 +11,8 @@
                 }
             },
             [
+                "artifacts.csv",
+                "document.csv",
                 "md5sum",
                 "md5sum/provenancereport.md5",
                 "multiqc",
@@ -27,9 +29,13 @@
                 "multiqc/multiqc_data/multiqc_software_versions.txt",
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
-                "nf-prov",
+                "multiqc_report.csv",
                 "pipeline_info",
+                "pipeline_info/README.md",
+                "pipeline_info/main.nf",
+                "pipeline_info/nextflow.config",
                 "pipeline_info/nf_core_provenancereport_software_mqc_versions.yml",
+                "pipeline_info/samplesheet.csv",
                 "quartonotebook",
                 "quartonotebook/artifacts",
                 "quartonotebook/artifacts/provenance_report_input_files.tsv",
@@ -38,15 +44,18 @@
                 "quartonotebook/provenance_report.qmd"
             ],
             [
+                "artifacts.csv:md5,6e81dc59a909d30767471dbeeaa1e27e",
+                "document.csv:md5,d41d8cd98f00b204e9800998ecf8427e",
+                "multiqc_report.csv:md5,3f1266a2b92c4f7a20cb0abd7a22c59c",
                 "provenance_report_input_files.tsv:md5,1458dc07273f8a570beae2b5f4358a49",
                 "provenance_report_summary.txt:md5,b32c187edd9b5ec9c088a0d2a41ff01d",
                 "provenance_report.qmd:md5,4fd8ffa820d1e7620135853517275d66"
             ]
         ],
-        "timestamp": "2026-09-10T23:00:27.341791297",
+        "timestamp": "2026-09-11T16:10:55.271569693",
         "meta": {
-            "nf-test": "0.9.5",
-            "nextflow": "26.04.1"
+            "nf-test": "0.9.4",
+            "nextflow": "25.10.4"
         }
     },
     "-profile test with --document": {
@@ -61,6 +70,8 @@
                 }
             },
             [
+                "artifacts.csv",
+                "document.csv",
                 "md5sum",
                 "md5sum/provenancereport.md5",
                 "multiqc",
@@ -77,9 +88,14 @@
                 "multiqc/multiqc_data/multiqc_software_versions.txt",
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
-                "nf-prov",
+                "multiqc_report.csv",
                 "pipeline_info",
+                "pipeline_info/README.md",
+                "pipeline_info/main.nf",
+                "pipeline_info/nextflow.config",
                 "pipeline_info/nf_core_provenancereport_software_mqc_versions.yml",
+                "pipeline_info/review_signoff.md",
+                "pipeline_info/samplesheet.csv",
                 "quartonotebook",
                 "quartonotebook/artifacts",
                 "quartonotebook/artifacts/provenance_report_input_files.tsv",
@@ -89,16 +105,19 @@
                 "review_signoff.md"
             ],
             [
+                "artifacts.csv:md5,9d4aa7e5bd0468337a37291e1221f6a1",
+                "document.csv:md5,1c75313f603814ccbb347ce23d20933d",
+                "multiqc_report.csv:md5,9e2ef1da7f0ded9348e0e8f1a8360d4b",
                 "provenance_report_input_files.tsv:md5,1458dc07273f8a570beae2b5f4358a49",
                 "provenance_report_summary.txt:md5,b32c187edd9b5ec9c088a0d2a41ff01d",
                 "provenance_report.qmd:md5,4fd8ffa820d1e7620135853517275d66",
                 "review_signoff.md:md5,0662c5a0325d10cdcd542d83dc2d300b"
             ]
         ],
-        "timestamp": "2026-09-10T23:07:38.103230046",
+        "timestamp": "2026-09-11T16:11:23.001860628",
         "meta": {
-            "nf-test": "0.9.5",
-            "nextflow": "26.04.1"
+            "nf-test": "0.9.4",
+            "nextflow": "25.10.4"
         }
     }
 }
