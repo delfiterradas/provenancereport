@@ -112,17 +112,17 @@
                 ]
             }
         ],
-        "timestamp": "2026-09-15T14:57:19.310800321",
+        "timestamp": "2026-08-18T09:19:47.986553",
         "meta": {
-            "nf-test": "0.9.4",
-            "nextflow": "25.10.4"
+            "nf-test": "0.9.5",
+            "nextflow": "26.04.6"
         }
     },
     "test notebook - [qmd:r]": {
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,ffbc211e9dcc1252c411bdd2f072b92e"
+                    "versions.yml:md5,0b0bc69dbba1093d56ee12850d7fa800"
                 ],
                 "versions_papermill": [
                     [
@@ -163,9 +163,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:00:47.248242428",
+        "timestamp": "2026-10-14T15:42:42.344563053",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     },
@@ -173,7 +173,7 @@
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,68fd39542815eb5537cdb4b234e2d30d"
+                    "versions.yml:md5,04739b40b0e9672435de9f5130616b17"
                 ],
                 "versions_papermill": [
                     [
@@ -214,9 +214,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:01:49.074485571",
+        "timestamp": "2026-10-14T15:45:12.41767953",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     },
@@ -224,7 +224,7 @@
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,ffbc211e9dcc1252c411bdd2f072b92e"
+                    "versions.yml:md5,0b0bc69dbba1093d56ee12850d7fa800"
                 ],
                 "versions_papermill": [
                     [
@@ -265,9 +265,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:02:09.568888123",
+        "timestamp": "2026-10-14T15:45:54.239807837",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     },
@@ -275,7 +275,7 @@
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,68fd39542815eb5537cdb4b234e2d30d"
+                    "versions.yml:md5,04739b40b0e9672435de9f5130616b17"
                 ],
                 "versions_papermill": [
                     [
@@ -316,9 +316,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:02:29.368701413",
+        "timestamp": "2026-10-14T15:46:34.833201131",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     },
@@ -326,7 +326,7 @@
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,68fd39542815eb5537cdb4b234e2d30d"
+                    "versions.yml:md5,04739b40b0e9672435de9f5130616b17"
                 ],
                 "versions_papermill": [
                     [
@@ -367,9 +367,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:01:07.969193608",
+        "timestamp": "2026-10-14T15:43:33.254495416",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     },
@@ -377,7 +377,7 @@
         "content": [
             {
                 "versions": [
-                    "versions.yml:md5,ffbc211e9dcc1252c411bdd2f072b92e"
+                    "versions.yml:md5,0b0bc69dbba1093d56ee12850d7fa800"
                 ],
                 "versions_papermill": [
                     [
@@ -418,9 +418,9 @@
                 ]
             ]
         ],
-        "timestamp": "2026-09-15T15:01:28.76675383",
+        "timestamp": "2026-10-14T15:44:20.429817692",
         "meta": {
-            "nf-test": "0.9.4",
+            "nf-test": "0.9.5",
             "nextflow": "25.10.4"
         }
     }
