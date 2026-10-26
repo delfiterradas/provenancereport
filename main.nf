@@ -39,8 +39,13 @@ workflow NFCORE_PROVENANCEREPORT {
     //
     PROVENANCEREPORT (
         samplesheet,
+        params.multiqc_config,
+        params.multiqc_logo,
+        params.multiqc_methods_description,
         params.outdir,
     )
+    emit:
+    multiqc_report = PROVENANCEREPORT.out.multiqc_report // channel: /path/to/multiqc_report.html
 }
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,6 +86,7 @@ workflow {
         params.plaintext_email,
         params.outdir,
         params.monochrome_logs,
+        NFCORE_PROVENANCEREPORT.out.multiqc_report
     )
 }
 
