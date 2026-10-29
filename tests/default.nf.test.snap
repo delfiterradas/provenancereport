@@ -37,7 +37,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -82,7 +82,7 @@
                 "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
             ]
         ],
-        "timestamp": "2026-10-22T18:33:46.957262669",
+        "timestamp": "2026-10-29T13:32:40.511937718",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"
@@ -126,7 +126,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -174,7 +174,7 @@
                 "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
             ]
         ],
-        "timestamp": "2026-10-22T18:34:09.761285589",
+        "timestamp": "2026-10-29T13:33:04.812316029",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"

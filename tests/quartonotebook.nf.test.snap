@@ -18,7 +18,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -61,7 +61,7 @@
                 "samplesheet_quartonotebook.csv:md5,33cd9804d52f8ff96e2244df29e5cd2a"
             ]
         ],
-        "timestamp": "2026-10-22T18:34:55.019734029",
+        "timestamp": "2026-10-29T13:33:51.467285179",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"

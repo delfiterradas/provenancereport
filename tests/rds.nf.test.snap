@@ -57,7 +57,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -96,13 +96,13 @@
             ],
             [
                 "external_rds_report.qmd:md5,33c6e034d026f8d8d619711bec521665",
-                "external_rds_summary.tsv:md5,26d3aee09ee5b92e17f0dce912a750aa",
+                "external_rds_summary.tsv:md5,784ac7bb87ee69050fa395264747c345",
                 "external_rds_report.qmd:md5,33c6e034d026f8d8d619711bec521665",
                 "prepared_external_rds_report.qmd:md5,789454baa34f90129e2c9308c5efdcba",
                 "samplesheet_rds.csv:md5,0fe3beaa1e0944acf1674c7e0e91004f"
             ]
         ],
-        "timestamp": "2026-10-22T18:35:22.136808856",
+        "timestamp": "2026-10-29T13:34:21.482014571",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"
