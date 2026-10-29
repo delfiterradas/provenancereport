@@ -37,7 +37,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -60,7 +60,6 @@
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
                 "multiqc_report.csv",
-                "nextflow.config:md5,86567217d8527a2d1544c3d9e8c09806",
                 "nextflow_schema.json:md5,bc89173cc2365b719dbdb0fc249be636",
                 "notebook.csv",
                 "pipeline_info",
@@ -83,7 +82,7 @@
                 "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
             ]
         ],
-        "timestamp": "2026-10-14T18:38:04.273089264",
+        "timestamp": "2026-10-29T13:32:40.511937718",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"
@@ -127,7 +126,7 @@
                     "pyyaml": "6.0.2"
                 },
                 "Workflow": {
-                    "nf-core/provenancereport": "v1.0.0"
+                    "nf-core/provenancereport": "v1.0.1"
                 }
             },
             [
@@ -151,7 +150,6 @@
                 "multiqc/multiqc_data/multiqc_sources.txt",
                 "multiqc/multiqc_report.html",
                 "multiqc_report.csv",
-                "nextflow.config:md5,86567217d8527a2d1544c3d9e8c09806",
                 "nextflow_schema.json:md5,bc89173cc2365b719dbdb0fc249be636",
                 "notebook.csv",
                 "pipeline_info",
@@ -176,7 +174,7 @@
                 "samplesheet.csv:md5,760077fbeb3954e468d83244325f4ade"
             ]
         ],
-        "timestamp": "2026-10-14T18:38:37.906766493",
+        "timestamp": "2026-10-29T13:33:04.812316029",
         "meta": {
             "nf-test": "0.9.5",
             "nextflow": "25.10.4"
