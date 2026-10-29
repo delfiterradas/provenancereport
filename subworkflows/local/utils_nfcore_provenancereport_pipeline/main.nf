@@ -156,6 +156,7 @@ workflow PIPELINE_COMPLETION {
     main:
     summary_params = paramsSummaryMap(workflow, parameters_schema: "nextflow_schema.json")
     def multiqc_reports = multiqc_report.toList()
+    def multiqc_reports = multiqc_report.toList()
 
     //
     // Completion email and summary
@@ -169,7 +170,7 @@ workflow PIPELINE_COMPLETION {
                 plaintext_email,
                 outdir,
                 monochrome_logs,
-                multiqc_reports.getVal(),
+                multiqc_reports.isBound() ? multiqc_reports.getVal() : [],
             )
         }
 
@@ -194,6 +195,7 @@ workflow PIPELINE_COMPLETION {
 def toolCitationText() {
     def citation_text = [
             "Tools used in the workflow included:",
+            "MultiQC (Ewels et al. 2016)",
             "."
         ].join(' ').trim()
 
@@ -202,6 +204,7 @@ def toolCitationText() {
 
 def toolBibliographyText() {
     def reference_text = [
+            "<li>Ewels, P., Magnusson, M., Lundin, S., & Käller, M. (2016). MultiQC: summarize analysis results for multiple tools and samples in a single report. Bioinformatics , 32(19), 3047–3048. doi: /10.1093/bioinformatics/btw354</li>"
         ].join(' ').trim()
 
     return reference_text
